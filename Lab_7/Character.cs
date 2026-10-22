@@ -14,7 +14,7 @@ namespace Lab_7
 
         public override string ToString()
         {
-            return $"{Name,-12} STR:{Strength,3}  SPD:{Speed,3}  HP:{Health,4}  Special: {SpecialAbility}";
+            return $"{Name} Strength:{Strength,3}  Speed:{Speed,3}  HP:{Health,4}  Special: {SpecialAbility}";
         }
     }
 }

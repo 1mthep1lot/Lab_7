@@ -15,9 +15,9 @@ namespace Lab_7
             while (running)
             {
                 Console.WriteLine();
-                Console.WriteLine("1. Create character");
-                Console.WriteLine("2. Show all characters");
-                Console.WriteLine("3. Exit");
+                Console.WriteLine("1.Create character");
+                Console.WriteLine("2.Show all characters");
+                Console.WriteLine("3.Exit");
                 Console.Write("Choice: ");
 
                 string choice = Console.ReadLine();
