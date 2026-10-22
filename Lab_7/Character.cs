@@ -7,10 +7,10 @@ namespace Lab_7
     public class Character
     {
      public string Name { get; set; }
-        public string Strength { get; set; };
-        public string Speed { get; set; };
-        public string Health { get; set; };
-        public string SpecialAbility { get; set; };
+        public int Strength { get; set; }
+        public int Speed { get; set; }
+        public int Health { get; set; }
+        public string SpecialAbility { get; set; }
 
         public override string ToString()
         {
