@@ -20,7 +20,7 @@ namespace Lab_7
                 Console.WriteLine("3.Exit");
                 Console.Write("Choice: ");
 
-                string choice = Console.ReadLine();
+                string? choice = Console.ReadLine();
 
                 switch (choice)
                 {
