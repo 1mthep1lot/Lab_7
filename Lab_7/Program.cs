@@ -7,11 +7,14 @@ namespace Lab_7
     {
         static void Main(string[] args)
         {
+     
             CharacterGenerator generator = new CharacterGenerator();
+            //The list where all created characters are saved.
             List<Character> characters = new List<Character>();
 
             bool running = true;
 
+            //Keep showing menu unless user chooses exit.
             while (running)
             {
                 Console.WriteLine();
@@ -42,7 +45,7 @@ namespace Lab_7
                     case "3":
                         running = false;
                         break;
-                    default:
+                    default: //Anything else is invalid so we show a message and ask again.
                         Console.WriteLine("Invalid choice.");
                         break;
                 }
